@@ -13,3 +13,5 @@ target/*
 !.vscode/extensions.json
 _site/
 .vagrant/
+nodes/
+**/.delivery/
