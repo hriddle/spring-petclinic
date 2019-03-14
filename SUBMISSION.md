@@ -15,7 +15,7 @@
 
 ## Docker Compose - App Server & MySQL
 1. [docker-compose.yml](docker-compose.yml)
-1. [application-mysql.properties](application-mysql.properties)
+1. [application-mysql.properties](src/main/resources/application-mysql.properties)
 1. [Output from `docker-compose up`](figures/docker-compose-both-output.txt)*
 1. Local webpage - Veterinarians
 ![](figures/docker-compose-both-webpage.png)
