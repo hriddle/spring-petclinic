@@ -15,3 +15,4 @@ _site/
 .vagrant/
 nodes/
 **/.delivery/
+data.d

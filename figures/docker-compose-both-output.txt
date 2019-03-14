@@ -1,0 +1,84 @@
+→ docker-compose up
+Starting spring-petclinic_mysql_1 ... done
+Creating spring-petclinic_webapp_1 ... done
+Attaching to spring-petclinic_mysql_1, spring-petclinic_webapp_1
+mysql_1   | 2019-03-14T04:35:54.408824Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+mysql_1   | 2019-03-14T04:35:54.416463Z 0 [Note] mysqld (mysqld 5.7.25) starting as process 1 ...
+mysql_1   | 2019-03-14T04:35:54.431834Z 0 [Note] InnoDB: PUNCH HOLE support available
+mysql_1   | 2019-03-14T04:35:54.431941Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+mysql_1   | 2019-03-14T04:35:54.431962Z 0 [Note] InnoDB: Uses event mutexes
+mysql_1   | 2019-03-14T04:35:54.431978Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+mysql_1   | 2019-03-14T04:35:54.431994Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+mysql_1   | 2019-03-14T04:35:54.432009Z 0 [Note] InnoDB: Using Linux native AIO
+mysql_1   | 2019-03-14T04:35:54.432820Z 0 [Note] InnoDB: Number of pools: 1
+mysql_1   | 2019-03-14T04:35:54.433255Z 0 [Note] InnoDB: Using CPU crc32 instructions
+mysql_1   | 2019-03-14T04:35:54.435248Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+mysql_1   | 2019-03-14T04:35:54.449340Z 0 [Note] InnoDB: Completed initialization of buffer pool
+mysql_1   | 2019-03-14T04:35:54.453678Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+mysql_1   | 2019-03-14T04:35:54.494831Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+mysql_1   | 2019-03-14T04:35:54.641330Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+mysql_1   | 2019-03-14T04:35:54.642111Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+mysql_1   | 2019-03-14T04:35:54.743006Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+mysql_1   | 2019-03-14T04:35:54.747992Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+mysql_1   | 2019-03-14T04:35:54.748025Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+mysql_1   | 2019-03-14T04:35:54.748430Z 0 [Note] InnoDB: Waiting for purge to start
+mysql_1   | 2019-03-14T04:35:54.799383Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 12470421
+mysql_1   | 2019-03-14T04:35:54.800040Z 0 [Note] Plugin 'FEDERATED' is disabled.
+mysql_1   | 2019-03-14T04:35:54.801775Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+mysql_1   | 2019-03-14T04:35:54.859417Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+mysql_1   | 2019-03-14T04:35:54.872225Z 0 [Warning] CA certificate ca.pem is self signed.
+mysql_1   | 2019-03-14T04:35:54.879710Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+mysql_1   | 2019-03-14T04:35:54.879899Z 0 [Note] IPv6 is available.
+mysql_1   | 2019-03-14T04:35:54.879927Z 0 [Note]   - '::' resolves to '::';
+mysql_1   | 2019-03-14T04:35:54.879963Z 0 [Note] Server socket created on IP: '::'.
+mysql_1   | 2019-03-14T04:35:54.882824Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+mysql_1   | 2019-03-14T04:35:54.897930Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190314  4:35:54
+mysql_1   | 2019-03-14T04:35:55.219041Z 0 [Note] Event Scheduler: Loaded 0 events
+mysql_1   | 2019-03-14T04:35:55.219755Z 0 [Note] mysqld: ready for connections.
+mysql_1   | Version: '5.7.25'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+webapp_1  |
+webapp_1  |
+webapp_1  |               |\      _,,,--,,_
+webapp_1  |              /,`.-'`'   ._  \-;;,_
+webapp_1  |   _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+webapp_1  |  |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+webapp_1  |  |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+webapp_1  |  |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+webapp_1  |  |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+webapp_1  |  |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+webapp_1  |  |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+webapp_1  |  ==================================================================/_/_/_/
+webapp_1  |
+webapp_1  | :: Built with Spring Boot :: 2.1.2.RELEASE
+webapp_1  |
+webapp_1  |
+webapp_1  | 2019-03-14 04:35:56.002  INFO 1 --- [           main] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication v2.1.0.BUILD-SNAPSHOT on e4f37221f5f6 with PID 1 (/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar started by root in /)
+webapp_1  | 2019-03-14 04:35:56.007  INFO 1 --- [           main] o.s.s.petclinic.PetClinicApplication     : The following profiles are active: mysql
+webapp_1  | 2019-03-14 04:35:57.262  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+webapp_1  | 2019-03-14 04:35:57.347  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 4 repository interfaces.
+webapp_1  | 2019-03-14 04:35:57.865  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51eae5b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+webapp_1  | 2019-03-14 04:35:58.583  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+webapp_1  | 2019-03-14 04:35:58.626  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+webapp_1  | 2019-03-14 04:35:58.627  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+webapp_1  | 2019-03-14 04:35:58.641  INFO 1 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+webapp_1  | 2019-03-14 04:35:58.731  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+webapp_1  | 2019-03-14 04:35:58.732  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2671 ms
+webapp_1  | 2019-03-14 04:35:59.114  INFO 1 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+webapp_1  | 2019-03-14 04:35:59.125  INFO 1 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+webapp_1  | 2019-03-14 04:35:59.132  INFO 1 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+webapp_1  | 2019-03-14 04:35:59.215  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+webapp_1  | 2019-03-14 04:35:59.809  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+webapp_1  | 2019-03-14 04:36:00.212  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+webapp_1  | 	name: default
+webapp_1  | 	...]
+webapp_1  | 2019-03-14 04:36:00.310  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+webapp_1  | 2019-03-14 04:36:00.313  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+webapp_1  | 2019-03-14 04:36:00.549  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+webapp_1  | 2019-03-14 04:36:00.834  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+webapp_1  | 2019-03-14 04:36:01.903  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+webapp_1  | 2019-03-14 04:36:02.195  INFO 1 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+webapp_1  | 2019-03-14 04:36:02.680  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+webapp_1  | 2019-03-14 04:36:02.750  WARN 1 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+webapp_1  | 2019-03-14 04:36:03.335  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/manage'
+webapp_1  | 2019-03-14 04:36:03.422  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+webapp_1  | 2019-03-14 04:36:03.424  INFO 1 --- [           main] o.s.s.petclinic.PetClinicApplication     : Started PetClinicApplication in 7.976 seconds (JVM running for 8.958)

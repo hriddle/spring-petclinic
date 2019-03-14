@@ -1,0 +1,50 @@
+→ docker-compose up
+Pulling mysql (mysql:5.7)...
+5.7: Pulling from library/mysql
+f7e2b70d04ae: Pull complete
+df7f6307ff0a: Pull complete
+e29ed02b1013: Pull complete
+9cb929db392c: Pull complete
+42cc77b24286: Pull complete
+a6d57750cc73: Pull complete
+79510826e343: Pull complete
+07e462ad61e2: Pull complete
+fa594cb5b94d: Pull complete
+1b44278270ad: Pull complete
+3edb3c323f55: Pull complete
+Creating spring-petclinic_mysql_1 ... done
+Attaching to spring-petclinic_mysql_1
+mysql_1  | 2019-03-14T04:19:04.300327Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+mysql_1  | 2019-03-14T04:19:04.304289Z 0 [Note] mysqld (mysqld 5.7.25) starting as process 1 ...
+mysql_1  | 2019-03-14T04:19:04.312467Z 0 [Note] InnoDB: PUNCH HOLE support available
+mysql_1  | 2019-03-14T04:19:04.312509Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+mysql_1  | 2019-03-14T04:19:04.312515Z 0 [Note] InnoDB: Uses event mutexes
+mysql_1  | 2019-03-14T04:19:04.312517Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+mysql_1  | 2019-03-14T04:19:04.312519Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+mysql_1  | 2019-03-14T04:19:04.312522Z 0 [Note] InnoDB: Using Linux native AIO
+mysql_1  | 2019-03-14T04:19:04.312712Z 0 [Note] InnoDB: Number of pools: 1
+mysql_1  | 2019-03-14T04:19:04.312794Z 0 [Note] InnoDB: Using CPU crc32 instructions
+mysql_1  | 2019-03-14T04:19:04.314332Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+mysql_1  | 2019-03-14T04:19:04.322209Z 0 [Note] InnoDB: Completed initialization of buffer pool
+mysql_1  | 2019-03-14T04:19:04.323876Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+mysql_1  | 2019-03-14T04:19:04.354605Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+mysql_1  | 2019-03-14T04:19:04.423642Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+mysql_1  | 2019-03-14T04:19:04.424288Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+mysql_1  | 2019-03-14T04:19:04.477578Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+mysql_1  | 2019-03-14T04:19:04.481022Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+mysql_1  | 2019-03-14T04:19:04.481077Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+mysql_1  | 2019-03-14T04:19:04.481539Z 0 [Note] InnoDB: Waiting for purge to start
+mysql_1  | 2019-03-14T04:19:04.533143Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 12359546
+mysql_1  | 2019-03-14T04:19:04.533701Z 0 [Note] Plugin 'FEDERATED' is disabled.
+mysql_1  | 2019-03-14T04:19:04.535166Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+mysql_1  | 2019-03-14T04:19:04.582635Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+mysql_1  | 2019-03-14T04:19:04.593312Z 0 [Warning] CA certificate ca.pem is self signed.
+mysql_1  | 2019-03-14T04:19:04.595989Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+mysql_1  | 2019-03-14T04:19:04.596067Z 0 [Note] IPv6 is available.
+mysql_1  | 2019-03-14T04:19:04.596166Z 0 [Note]   - '::' resolves to '::';
+mysql_1  | 2019-03-14T04:19:04.596184Z 0 [Note] Server socket created on IP: '::'.
+mysql_1  | 2019-03-14T04:19:04.600457Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+mysql_1  | 2019-03-14T04:19:04.602938Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190314  4:19:04
+mysql_1  | 2019-03-14T04:19:04.785512Z 0 [Note] Event Scheduler: Loaded 0 events
+mysql_1  | 2019-03-14T04:19:04.785811Z 0 [Note] mysqld: ready for connections.
+mysql_1  | Version: '5.7.25'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
